@@ -17,7 +17,7 @@ if hist_button: # al hacer clic en el botón
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
 
-if build_scatter:
+if scatter_button:
     # Escribir un mensaje
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
     
